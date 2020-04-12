@@ -1,16 +1,6 @@
 # Bitirme-Projem
 Derin Öğrenme Tabanlı Banka Logosu Tanıma Sistemi 
-Bu proje kapsamında günümüzde gelişmekte olan derin öğrenme algoritmalarını
-kullanarak tasarlanan görüntü işleme ile nesne tanıma yapılmaktadır. Bu proje Google tarafından
-geliştirilen derin öğrenme uygulamalarında kullanılan Tensorflow yardımıyla geliştirilmiştir.
-Nesne tanıma projemizde hazır olarak eğitilmiş Tensorflow kütüphanesinde bulunan
-Faster R-CNN modelini, oluşturulan veri seti ile tekrar eğiterek istenilen nesneleri tanıyan bir
-model elde edilmiştir.
-Tez kapsamında veri setinin oluşumundan modelin eğitimine kadar hangi aşamalardan
-geçtiği anlatılmaktadır. Herhangi bir nesne tanıma uygulaması için hangi modelin daha verimli
-çalışacağı konusunda araştırmalar yapılmıştır. Tensorflow’un hazır olarak eğitilmiş modelleri
-paylaşılmaktadır. Eğitilen modellerin daha iyi sonuçlar vermesi için, veri setinin nasıl
-oluşturulacağı hakkında bilgiler verilmektedir.
-Günümüzün gelişen teknolojisinin sunmuş olduğu imkanlar neticesinde istenilen her
-nesnenin bilgisayarlı görü uygulamaları tarafından tanınması için gerekli tüm aşamalardan
-bahsedilmektedir.
+Bu proje bizim istediğimiz 5 banka isimi ve logosu için çalışmaktadır. Veri setini çekmiş olduğumuz fotoğraflar ve videolar oluşturmaktadır.
+3 farklı model eğitilmiştir. Bu modellerin birbirinden farkı ilk model sadece banka isimi tanıyan, ikinci model ise sadece banka logosu tanıma,
+son model ise başarım seviyesini arttırmak için hem logo hem isim tanıyan modeldir. 
+Ayrıntılı bir şekilde bitirme tezinde aşamalardan bahsetmekteyiz
